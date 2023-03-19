@@ -1,0 +1,43 @@
+/* 
+    Created on : Feb 22, 2023, 11:20:01 AM
+    Author     : Huynh Van Phuot
+*/
+.plant {
+    display: flex;
+    margin: 100px auto;
+    width: 100%;
+    max-width: 700px;
+}
+
+.plant__img {
+    margin-right: 20px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+}
+.plant__img img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.plant__info--id {
+
+}
+
+.plant__info--name {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.plant__info--price {
+    background: #d8f5a2;
+    border-radius: 5px;
+    padding: 0 10px;
+    width: fit-content;
+}
+
+.plant__info--price span{
+    font-size: 24px;
+    font-weight: bold;
+}

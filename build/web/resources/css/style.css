@@ -1,0 +1,161 @@
+/* 
+    Created on : Feb 22, 2023, 11:20:01 AM
+    Author     : Huynh Van Phuot
+*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.form-auth {
+    margin: 50px auto;
+    width: 90%;
+    max-width: 500px;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.form-auth .input-group-text {
+    padding: 10px 15px;
+}
+
+.form .invalid-feedback {
+    display: inline-block !important;
+}
+
+table {
+    margin: 20px auto;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+table thead {
+    background: #e9ecef;
+}
+
+.container {
+    min-height: 70vh;
+}
+
+
+.footer {
+    height: 100px;
+}
+
+/* styles cart*/
+
+.item__image {
+    width: 100px;
+    height: 100px;
+}
+
+.item__quantity input{
+    width: 50px;
+}
+.total-price {
+    font-weight: bold;
+    font-size: 24px;
+
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 20px;
+}
+
+
+.search__error {
+    position: absolute;
+    bottom: -20px;
+    left: 5px;
+    font-size: 12px;
+    color: red;
+}
+
+.buy-button {
+    border-radius: 10px;
+    padding: 3px 6px;
+    background-color: lime;
+    margin-top: 10px;
+}
+
+.buy-button :hover { 
+    background-color: lime;
+}
+
+.add-item {
+    text-decoration: none;
+    color: black;
+}
+
+.add-item:hover {
+    text-decoration: none;
+    color: red;
+    font-weight: bolder;
+}
+
+.button-29 {
+    align-items: center;
+    appearance: none;
+    background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+    border: 0;
+    border-radius: 6px;
+    box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "JetBrains Mono",monospace;
+    height: 30px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s,transform .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow,transform;
+    font-size: 18px;
+}
+
+.button-29:focus {
+    box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.button-29:hover {
+    box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+    transform: translateY(-2px);
+}
+
+.button-29:active {
+    box-shadow: #3c4fe0 0 3px 7px inset;
+    transform: translateY(2px);
+}
+
+.welcome-color {
+    color: violet;
+    font-weight: bolder;
+    font-family: ui-rounded;
+    font-style: italic;
+}
