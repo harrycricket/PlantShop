@@ -12,9 +12,9 @@
     <body>
         <nav class="navbar navbar-expand-lg navbar-light bg-light px-5" style="background-color: rgb(80 244 24 / 30%) !important">
             <div class="container-fluid">
-
+                
                 <a class="navbar-brand" href="${pageContext.request.contextPath}/">
-                    <img style="width: 70px; height: 70px;" class="img-responsive" src="<c:url value="/resources/images/logo.jpg"/>" alt="alt"/>
+                    <img style="width: 80px; height: 80px; border-radius: 50%" class="img-responsive" src="<c:url value="/resources/images/logo.png"/>" alt="alt"/>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
